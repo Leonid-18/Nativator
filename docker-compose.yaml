@@ -6,7 +6,7 @@ services:
     image: wordpress
     restart: always
     volumes:
-      - ./wp-content:/var/www/html/wp-content 
+      - ./wp-content:/var/www/html
     environment:
       WORDPRESS_DB_HOST: db:"${DB_PORT}"
       WORDPRESS_DB_PASSWORD: "${PASSWORD}"
@@ -14,7 +14,7 @@ services:
       - 80:80 # Expose http and https
       - 443:443
     networks:
-      - back 
+      - back
   db:
     image: mysql:5.7
     restart: always
@@ -40,4 +40,3 @@ networks:
   back:
 volumes:
   db_data:
-  
