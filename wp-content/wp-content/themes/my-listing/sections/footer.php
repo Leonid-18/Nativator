@@ -1,6 +1,6 @@
 <?php
 	$data = c27()->merge_options([
-			'footer_text'      => c27()->get_setting('footer_text', ''),
+			'footer_text'      => '© Made by Nativator',
 			'show_widgets'     => c27()->get_setting('footer_show_widgets', true),
 			'show_footer_menu' => c27()->get_setting('footer_show_menu', true),
 		], $data);

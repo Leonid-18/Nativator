@@ -1,18 +1,6 @@
 <?php
 /**
  * Code Field module for Advanced Custom Fields.
- *
- * @version   1.0
- * @author    27collective
- *
- * @copyright 2018 27collective (https://27collective.net)
- * @license   GNU General Public License v2.0
- * @link      http://www.gnu.org/licenses/gpl-2.0.html
- *
- * @copyright 2017 Peter Tasker (https://petetasker.com)
- * @license   GNU General Public License v2.0
- * @link      http://www.gnu.org/licenses/gpl-2.0.html
- *
  */
 
 namespace MyListing\Ext\Advanced_Custom_Fields\Code_Field;

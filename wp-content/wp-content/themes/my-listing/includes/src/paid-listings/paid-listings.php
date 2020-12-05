@@ -5,9 +5,6 @@
  * @since   1.6
  * @license GNU General Public License v3.0 (https://www.gnu.org/licenses/gpl-3.0.html)
  * @copyright:
- *     2019 27collective
- *     2017 Astoundify
- *     2015 Automattic
  */
 
 namespace MyListing\Src\Paid_Listings;

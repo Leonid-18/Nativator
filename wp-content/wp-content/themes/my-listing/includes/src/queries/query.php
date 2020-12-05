@@ -269,7 +269,6 @@ class Query {
 		}
 
 		// Prevent duplicate results
-		// @see https://helpdesk.27collective.net/questions/question/some-listings-missings-from-explore-page/
 		$order .= ", {$wpdb->posts}.post_date DESC";
 
 	    return $order;

@@ -2,13 +2,6 @@
 /**
  * Form management class, used for Add Listing, Edit Listing, and Claim Listing forms.
  *
- * @since 2.1
- *
- * @license GNU General Public License v3.0 (https://www.gnu.org/licenses/gpl-3.0.html)
- *
- * @copyright:
- *     2019 27collective https://27collective.net/
- *     2018 Automattic   https://automattic.com/
  *
  */
 
